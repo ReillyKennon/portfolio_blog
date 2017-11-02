@@ -11,6 +11,8 @@ class Navbar extends Component {
                     <a data-activates="main-menu" className="button-collapse show-on-large"><i className="fa fa-bars">Menu</i></a>
                     <ul className="right hide-on-small-only">
                         <li><Link to="/">Blog</Link></li>
+                        <li><Link to="/music">Music</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
                         <li><Link to="/about">About</Link></li>
              
                     </ul>
